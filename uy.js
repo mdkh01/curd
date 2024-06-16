@@ -134,7 +134,7 @@ let seachMood= 'title';
 function getsearchMood(id){   
      let search= document.getElementById('search')
 if(id=='searchtitle'){
- seachMood= 'title';
+ searchMood= 'title';
  search.placeholder='Search By Title';
 }else{
  seachMood='category'
